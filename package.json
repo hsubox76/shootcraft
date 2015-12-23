@@ -1,0 +1,14 @@
+{
+  "name": "not_minecraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christina Holland",
+  "license": "ISC",
+  "devDependencies": {
+    "three": "^0.71.0"
+  }
+}
