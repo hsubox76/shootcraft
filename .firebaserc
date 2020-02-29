@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "writing-thing"
+  },
+  "targets": {
+    "writing-thing": {
+      "hosting": {
+        "shootcraft": [
+          "shootcraft"
+        ]
+      }
+    }
+  }
+}

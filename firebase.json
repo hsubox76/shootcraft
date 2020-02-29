@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "shootcraft",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebase",
+        ".firebaserc",
+        ".gitignore",
+        "firebase-debug.log",
+        "package.json",
+        "README.md",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}

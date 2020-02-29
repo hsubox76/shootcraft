@@ -15,6 +15,24 @@ body {
   background-color: transparent;
 }
 
+#instructions {
+  position: absolute;
+  padding: 10px;
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.85);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+#instructions button {
+  border: 1px solid grey;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: black;
+}
+
 .iconbox {
   position: relative;
   margin: 15px;

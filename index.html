@@ -13,6 +13,16 @@
       <div id="ammo"></div>
     </div>
   </div>
+  <div id="instructions">
+    <p><strong>instructions</strong> <button onclick="getElementById('instructions-text').style.display = window.instructionsHidden ? 'block' : 'none'; this.textContent = window.instructionsHidden ? 'hide' : 'show';window.instructionsHidden = !window.instructionsHidden;">hide</button></p>
+    <div id="instructions-text">
+    <p>space - shoot</p>
+    <p>mouse - look around</p>
+    <p>WASD - move</p>
+    <p>tab - cycle colors</p>
+    <p>ctrl + mouse click - destroy block</p>
+  </div>
+  </div>
   <script src="lib/three.min.js"></script>
   <script src="scripts/builder.js"></script>
 </body>
